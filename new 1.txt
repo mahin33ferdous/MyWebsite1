@@ -1,0 +1,49 @@
+		 <div class="box">
+		     <h1 class="heading"> WEB DEVELOPMENT </h1> 
+			 
+			   <p> First, you need to understand who you are. Learn about yourself and jobs you'll suit with the About Me tool.
+
+Work through the questions, and we’ll begin to build a picture of your personality. Can’t see the exact right choice? Go with the one that’s closest to you.
+
+Your results will reveal your three strongest character traits, and suggest jobs to match the kind of person you are.</p>
+    </div>
+	
+		  <div class="box">
+		     <h1 class="heading">WEB IDEA </h1>
+			 
+			   <p> First, you need to understand who you are. Learn about yourself and jobs you'll suit with the About Me tool.
+
+Work through the questions, and we’ll begin to build a picture of your personality. Can’t see the exact right choice? Go with the one that’s closest to you.
+
+Your results will reveal your three strongest character traits, and suggest jobs to match the kind of person you are.</p>
+    </div>
+	
+	
+	
+	.row {
+	display: flex;
+	justify-content : space-around;
+	flex-wrap : wrap;
+	box-sizing: border-box;
+	
+}
+
+.box{
+	display : flex ;
+flex-direction : coloumn;
+	width : 250px;
+	 height: 300px;
+	 border : 1px solid black ; 
+	 margin : 10px;
+	 text-align: justify;
+	 padding : 10px;
+	 border-radius : 15px;
+	 
+}
+.box :hover {
+	background-position: left bottom;
+	color : white;
+	background-color: red;
+	border : none;
+	box-shadow: 0,0, 20px rgb (0,0,255);
+}
